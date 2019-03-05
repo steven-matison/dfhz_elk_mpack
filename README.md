@@ -1,5 +1,6 @@
 # dfhz_elk_mpack
-DFHeinz ELK Stack Mpack for Ambari
+DFHeinz ELK Stack Mpack for Ambari.
+Install Elasticsearch, Logstash, Kibana, FileBeat, & MetricBeat with Ambari using this management pack created by DFHeinz.
 
 Version Key:
 
@@ -10,7 +11,7 @@ elasticsearch_mpack-3.0.0.0-0.tar.gz - HDP/HDF 3 Ambari 2.7 Mpack ELK 6.3.2 with
 
 elasticsearch_mpack-2.6.0.0-9.tar.gz - HDP/HDF 2 Ambari 2.6 Mpack ELK 6.3.2 with sudo
 
-For more information about lifecycle of this Management Pack for Elasticsearch please see the following Hortonworks Articles:
+For more information about lifecycle of this Management Pack for Elasticsearch and how to install Elasticsearch using Ambari  please see the following Hortonworks Articles:
 
 https://community.hortonworks.com/articles/215078/how-to-install-elk-stack-632-in-ambari.html
 https://community.hortonworks.com/articles/242228/create-a-test-base-for-elk-stack-632.html
