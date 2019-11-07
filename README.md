@@ -4,10 +4,13 @@ Install Elasticsearch, Logstash, Kibana, FileBeat, & MetricBeat with Ambari usin
 
 Version Key:
 
+elasticsearch_mpack-3.4.0.1-0.tar.gz - HDP/HDF 3.4 Ambari 2.7 Mpack ELK 7.4 without sudo - WORK IN PROGRESS
 
-elasticsearch_mpack-3.0.0.0-1.tar.gz - HDP/HDF 3 Ambari 2.7 Mpack ELK 6.3.2 with sudo (for non root user installl) 
+elasticsearch_mpack-3.4.0.0-0.tar.gz - HDP/HDF 3.4 Ambari 2.7 Mpack ELK 6.3.2 without sudo 
 
-elasticsearch_mpack-3.0.0.0-0.tar.gz - HDP/HDF 3 Ambari 2.7 Mpack ELK 6.3.2 without sudo 
+elasticsearch_mpack-3.0.0.0-1.tar.gz - HDP/HDF 3.3 Ambari 2.7 Mpack ELK 6.3.2 with sudo (for non root user installl) 
+
+elasticsearch_mpack-3.0.0.0-0.tar.gz - HDP/HDF 3.3 Ambari 2.7 Mpack ELK 6.3.2 without sudo 
 
 elasticsearch_mpack-2.6.0.0-9.tar.gz - HDP/HDF 2 Ambari 2.6 Mpack ELK 6.3.2 with sudo
 
