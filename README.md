@@ -18,3 +18,13 @@ For more information about lifecycle of this Management Pack for Elasticsearch a
 
 https://community.hortonworks.com/articles/215078/how-to-install-elk-stack-632-in-ambari.html
 https://community.hortonworks.com/articles/242228/create-a-test-base-for-elk-stack-632.html
+
+<h2>Mpack Usage Notes</h2>
+Make sure you get the correct /raw/ link if using the github links.  Example  Install & Remove commands are:
+
+<pre>ambari-server install-mpack --mpack=https://github.com/steven-dfheinz/dfhz_elk_mpack/raw/master/elasticsearch_mpack-3.4.0.0-0.tar.gz --verbose
+ambari-server restart
+ambari-server uninstall-mpack --mpack-name=elasticsearch-ambari.mpack
+ambari-server restart</pre>
+
+Be sure to restart ambari after all mpack changes.
