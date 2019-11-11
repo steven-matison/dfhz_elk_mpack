@@ -1,5 +1,6 @@
 # dfhz_elk_mpack
-DFHeinz ELK Stack Mpack for Ambari.
+<h1>DFHeinz ELK Stack Mpack for Ambari.</h1>
+
 Install Elasticsearch, Logstash, Kibana, FileBeat, & MetricBeat with Ambari using this management pack created by DFHeinz.
 
 Version Key:
@@ -33,3 +34,4 @@ ambari-server restart</pre>
 
 There is a current bug in User Group Management.  The work around is the following python command:
 <pre>python /var/lib/ambari-server/resources/scripts/configs.py -u admin -p admin -n [CLUSTER_NAME] -l [CLUSTER_FQDN] -t 8080 -a set -c cluster-env -k  ignore_groupsusers_create -v true</pre>
+
