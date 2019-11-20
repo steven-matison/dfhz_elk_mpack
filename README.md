@@ -5,7 +5,7 @@ Install Elasticsearch, Logstash, Kibana, FileBeat, & MetricBeat with Ambari usin
 
 <h2>Version Key</h2>
 
-&nbsp;&nbsp;elasticsearch_mpack-3.4.0.1-0.tar.gz - HDP/HDF 3.4 Ambari 2.7 Mpack ELK 7.4 without sudo - WORK IN PROGRESS
+&nbsp;&nbsp;elasticsearch_mpack-3.4.0.1-0.tar.gz - HDP/HDF 3.4 Ambari 2.7 Mpack ELK 7.4 without sudo - NOW TESTING
 
 &nbsp;&nbsp;elasticsearch_mpack-3.4.0.0-0.tar.gz - HDP/HDF 3.4 Ambari 2.7 Mpack ELK 6.3.2 without sudo 
 
@@ -20,7 +20,7 @@ For more information about lifecycle of this Management Pack for Elasticsearch a
 https://community.cloudera.com/t5/Community-Articles/How-To-Install-ELK-Stack-6-3-2-in-Ambari/ta-p/248842
 https://community.cloudera.com/t5/Community-Articles/Improve-ELK-Mpack-for-HDP-HDF-3-for-Ambari-2-7/ta-p/249473
 
-<h2>M-Pack Usage Notes</h2>
+<h2>Usage Notes</h2>
 
 Make sure you get the correct /raw/ link if using the github links (see sample below).  
 Be sure to restart ambari after all M-Pack changes.
