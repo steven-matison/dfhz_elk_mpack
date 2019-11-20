@@ -5,20 +5,20 @@ Install Elasticsearch, Logstash, Kibana, FileBeat, & MetricBeat with Ambari usin
 
 Version Key:
 
-elasticsearch_mpack-3.4.0.1-0.tar.gz - HDP/HDF 3.4 Ambari 2.7 Mpack ELK 7.4 without sudo - WORK IN PROGRESS
+&nbsp;&nbsp;elasticsearch_mpack-3.4.0.1-0.tar.gz - HDP/HDF 3.4 Ambari 2.7 Mpack ELK 7.4 without sudo - WORK IN PROGRESS
 
-elasticsearch_mpack-3.4.0.0-0.tar.gz - HDP/HDF 3.4 Ambari 2.7 Mpack ELK 6.3.2 without sudo 
+&nbsp;&nbsp;elasticsearch_mpack-3.4.0.0-0.tar.gz - HDP/HDF 3.4 Ambari 2.7 Mpack ELK 6.3.2 without sudo 
 
-elasticsearch_mpack-3.0.0.0-1.tar.gz - HDP/HDF 3.3 Ambari 2.7 Mpack ELK 6.3.2 with sudo (for non root user installl) 
+&nbsp;&nbsp;elasticsearch_mpack-3.0.0.0-1.tar.gz - HDP/HDF 3.3 Ambari 2.7 Mpack ELK 6.3.2 with sudo (for non root user installl) 
 
-elasticsearch_mpack-3.0.0.0-0.tar.gz - HDP/HDF 3.3 Ambari 2.7 Mpack ELK 6.3.2 without sudo 
+&nbsp;&nbsp;elasticsearch_mpack-3.0.0.0-0.tar.gz - HDP/HDF 3.3 Ambari 2.7 Mpack ELK 6.3.2 without sudo 
 
-elasticsearch_mpack-2.6.0.0-9.tar.gz - HDP/HDF 2 Ambari 2.6 Mpack ELK 6.3.2 with sudo
+&nbsp;&nbsp;elasticsearch_mpack-2.6.0.0-9.tar.gz - HDP/HDF 2 Ambari 2.6 Mpack ELK 6.3.2 with sudo
 
 For more information about lifecycle of this Management Pack for Elasticsearch and how to install Elasticsearch using Ambari  please see the following Hortonworks Articles:
 
-https://community.hortonworks.com/articles/215078/how-to-install-elk-stack-632-in-ambari.html
-https://community.hortonworks.com/articles/242228/create-a-test-base-for-elk-stack-632.html
+https://community.cloudera.com/t5/Community-Articles/How-To-Install-ELK-Stack-6-3-2-in-Ambari/ta-p/248842
+https://community.cloudera.com/t5/Community-Articles/Improve-ELK-Mpack-for-HDP-HDF-3-for-Ambari-2-7/ta-p/249473
 
 <h2>M-Pack Usage Notes</h2>
 
