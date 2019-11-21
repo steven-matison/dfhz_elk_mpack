@@ -5,7 +5,7 @@ Install Elasticsearch, Logstash, Kibana, FileBeat, & MetricBeat with Ambari usin
 
 <h2>Version Key</h2>
 
-&nbsp;&nbsp;elasticsearch_mpack-3.4.0.1-0.tar.gz - HDP/HDF 3.4 Ambari 2.7 Mpack ELK 7.4 without sudo - NOW TESTING
+&nbsp;&nbsp;elasticsearch_mpack-3.4.0.1-0.tar.gz - HDP/HDF 3.4 Ambari 2.7 Mpack ELK 7.4.2 without sudo 
 
 &nbsp;&nbsp;elasticsearch_mpack-3.4.0.0-0.tar.gz - HDP/HDF 3.4 Ambari 2.7 Mpack ELK 6.3.2 without sudo 
 
@@ -32,6 +32,6 @@ ambari-server restart
 ambari-server uninstall-mpack --mpack-name=elasticsearch-ambari.mpack
 ambari-server restart</pre>
 
-There is a current bug in User Group Management.  The work around is the following python command:
+There is a current bug in User Group Management.  The work around is the following python command before installing ELK Components:
 <pre>python /var/lib/ambari-server/resources/scripts/configs.py -u admin -p admin -n [CLUSTER_NAME] -l [CLUSTER_FQDN] -t 8080 -a set -c cluster-env -k  ignore_groupsusers_create -v true</pre>
 
