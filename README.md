@@ -1,7 +1,7 @@
 # dfhz_elk_mpack
-<h1>DFHeinz ELK Stack Management Pack for Ambari.</h1>
+<h1>ELK Stack Management Pack for Ambari.</h1>
 
-Install Elasticsearch, Logstash, Kibana, FileBeat, & MetricBeat with Ambari using this management pack created by DFHeinz.
+Install Elasticsearch, Logstash, Kibana, FileBeat, & MetricBeat with Ambari using this management pack.
 
 <h2>Version Key</h2>
 
@@ -27,7 +27,7 @@ Be sure to restart ambari after all M-Pack changes.
 
 Example  Install & Remove commands are:
 
-<pre>ambari-server install-mpack --mpack=https://github.com/steven-dfheinz/dfhz_elk_mpack/raw/master/elasticsearch_mpack-3.4.0.0-0.tar.gz --verbose
+<pre>ambari-server install-mpack --mpack=https://github.com/steven-matison/dfhz_elk_mpack/raw/master/elasticsearch_mpack-3.4.0.0-0.tar.gz --verbose
 ambari-server restart
 ambari-server uninstall-mpack --mpack-name=elasticsearch-ambari.mpack
 ambari-server restart</pre>
